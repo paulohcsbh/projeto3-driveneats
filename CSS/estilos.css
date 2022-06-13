@@ -146,6 +146,7 @@ body {
   color: #a6a6a6;
   margin: 4px 0 0 15px;
   font-family: Roboto;
+  display: flex;
 }
 .preco-bebida {
   width: 66px;
@@ -155,6 +156,7 @@ body {
   color: #000000;
   margin: 9px 0 0 15px;
   font-family: Roboto;
+  display: flex;
 }
 .sobremesa-titulo {
   width: 320px;
@@ -209,6 +211,7 @@ body {
   color: #000000;
   margin: 9px 0 0 15px;
   font-family: Roboto;
+  display: flex;
 }
 .final-pagina {
   width: 100%;
@@ -236,8 +239,9 @@ button {
   font-family: Roboto;
   border: none;    
 }
-.marcacao{
-  border: 4px solid #32b72f;    
+.marcacao {
+  border: 4px solid #32b72f;  
+    
 }
 .marcacao-dois {
   border: 4px solid #32b72f;  
@@ -249,10 +253,29 @@ button {
   margin: 0 0 0 63px;
   width: 15.44px;
   height: 15.44px;
-  
-}  
-.aparece {
-  display: initial;
+  display: none;
+}
+.check-dois{
+  margin: 0 0 0 67px;
+  width: 15.44px;
+  height: 15.44px;
+  display: none;
+}
+.check-tres{
+  margin: 0 0 0 71px;
+  width: 15.44px;
+  height: 15.44px;
+  display: none;
+}
+.marcacao .check{  
+  display: initial;  
+}
+
+.marcacao-dois .check-dois{ 
+    display: initial;  
+} 
+.marcacao-tres .check-tres{ 
+  display: initial;  
 }
 .sumido{
   display: none;
