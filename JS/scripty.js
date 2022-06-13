@@ -10,16 +10,7 @@ function marcarUm(elemento){
     }        
     elemento.classList.add("marcacao");      
     comida = comida + 1;
-    fechar();
-    verdinho();
-    
-} 
-function verdinho(elemento){
-    const checar = document.querySelector(".aparece");
-    if (checar !== null){
-        checar.classList.remove("aparece");
-    }
-    elemento.classList.add("aparece");
+    fechar();   
 }
 function marcarDois(elemento){     
      
